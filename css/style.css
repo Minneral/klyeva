@@ -255,6 +255,10 @@ a {
   transform: rotate(45deg);
 }
 
+.slick-arrow.slick-hidden {
+  display: block !important;
+}
+
 .header::after {
   content: "";
   position: absolute;
@@ -940,6 +944,11 @@ a {
     top: 650px;
   }
 }
+@media (max-width: 360px) {
+  .services__about .btn-small {
+    top: 700px;
+  }
+}
 .cases {
   background-color: #1B1B1B;
   position: relative;
@@ -1097,12 +1106,12 @@ a {
 }
 @media (max-width: 480px) {
   .cases__btn {
-    top: 600px;
+    top: 610px;
   }
 }
 @media (max-width: 360px) {
   .cases__btn {
-    top: 620px;
+    top: 660px;
   }
 }
 .banner {

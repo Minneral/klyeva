@@ -255,6 +255,10 @@ a {
   transform: rotate(45deg);
 }
 
+.slick-arrow.slick-hidden {
+  display: block !important;
+}
+
 .header::after {
   content: "";
   position: absolute;
